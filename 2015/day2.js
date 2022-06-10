@@ -1,3 +1,4 @@
+// https://adventofcode.com/2015/day/2
 async function advent() {
   // Get puzzle input from text file
   const response = await fetch('day2.txt');
