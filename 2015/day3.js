@@ -12,9 +12,10 @@ const currentLoc = [0,0];
 const uniqueLocs = new Array([0,0]);
 // Can not use array as uniqueLocations' elements because new locations would be new value, array is object type => new array equals different values
 // But use string type for array elements requires more conversion because string value is immutable
+
 for (let i = 0; i < directions.length; i++) {
-  if (i % 2 === 0) directionsSanta.push(directions[i]);
-  else directionsRoboSanta.push(directions[i]);
+  // if (i % 2 === 0) directionsSanta.push(directions[i]);
+  // else directionsRoboSanta.push(directions[i]);
   // This for loop and its variables assignment is quite tricky (not fully understood), used switch statement before
   let tempLoc = currentLoc;
 
